@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const db = require("../data/dbConfig");
 
-const PScheme = require("./project-schemes");
+const PScheme = require("./project-scheme");
 
 
 router.get("/", (req, res) => {
